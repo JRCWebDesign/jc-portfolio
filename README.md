@@ -46,3 +46,9 @@ Las fuentes Space Grotesk e IBM Plex Mono se cargan desde Google Fonts, con fuen
 - Personalizados Cathy: https://jrcwebdesign.github.io/PersonalizadosCathy/
 
 Capturas tomadas el 29 de septiembre de 2026.
+
+## Vista previa al compartir
+
+La portada está en `dist/assets/portada-social.png`. Los metadatos Open Graph y Twitter Card usan `https://jc-portfolio.pages.dev/` como dominio previsto. Si Cloudflare asigna otro dominio, actualizar las URL absolutas de `dist/index.html`.
+
+La página y la imagen deben ser públicas y responder sin Cloudflare Access para que las aplicaciones puedan obtener la vista previa. Al configurar estos metadatos, el dominio previsto devolvía una pantalla de Cloudflare Access; la vista previa pública queda pendiente de verificar después de publicar y confirmar el dominio.
