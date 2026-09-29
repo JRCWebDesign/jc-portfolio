@@ -1,0 +1,9 @@
+site/
+.sites-runtime/
+.openai/
+*.tar.gz
+preview-*.png
+sync-portfolio.py
+.env
+.env.*
+node_modules/
