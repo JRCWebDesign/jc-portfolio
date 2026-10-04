@@ -3,3 +3,6 @@
 .editor{transform:none}
 /* Preserve the full width of each real website capture. */
 .capture img{height:auto;object-fit:initial}
+
+/* A compact explanation of the personal project process. */
+.work-process{margin-top:32px;padding-top:28px;border-top:1px solid var(--line)}.work-process-intro{max-width:660px}.work-process-intro h3{font-size:22px;margin:0 0 12px}.work-process-intro p{color:var(--muted);font-size:15px;margin:0}.work-process-steps{list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.work-process-steps li>span{font:11px/1.8 var(--mono);color:var(--pink)}.work-process-steps p{color:var(--muted);font-size:15px;margin:10px 0 0}@media(max-width:760px){.work-process-steps{grid-template-columns:1fr;gap:20px}}

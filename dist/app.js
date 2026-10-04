@@ -1,6 +1,6 @@
 const projects = [
-  ['DEMO-AlmaBeauty', 'Demo web', 'JessicaCasella'],
-  ['GymTimer', 'Proyecto · JavaScript', 'JessicaCasella'],
+  ['DEMO-AlmaBeauty', 'Demo web', 'JessicaCasella', 'https://jessicacasella.github.io/DEMO-AlmaBeauty/'],
+  ['GymTimer', 'Proyecto · JavaScript', 'JessicaCasella', 'https://jessicacasella.github.io/GymTimer/'],
   ['MiAgenda', 'Proyecto · HTML', 'JessicaCasella'],
   ['RedirectReviewNFCSeek', 'Proyecto · HTML', 'JRCWebDesign'],
   ['Calculadora', 'Proyecto · JavaScript', 'JessicaCasella'],
@@ -9,14 +9,14 @@ const projects = [
   ['Ta-Te-Ti', 'Proyecto · JavaScript', 'JessicaCasella']
 ];
 const list = document.querySelector('#archive-list');
-for (const [name, description, account] of projects) {
+for (const [name, description, account, demoUrl] of projects) {
   const link = document.createElement('a');
-  link.href = `https://github.com/${account}/${name}`;
+  link.href = demoUrl || `https://github.com/${account}/${name}`;
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
   link.textContent = name;
   const detail = document.createElement('small');
-  detail.textContent = `${description} · Ver en GitHub`;
+  detail.textContent = `${description} · ${demoUrl ? 'Visitar web' : 'Ver en GitHub'}`;
   link.append(detail);
   list.append(link);
 }
