@@ -1,26 +1,3 @@
-const projects = [
-  ['DEMO-AlmaBeauty', 'Demo web', 'JessicaCasella', 'https://jessicacasella.github.io/DEMO-AlmaBeauty/'],
-  ['GymTimer', 'Proyecto · JavaScript', 'JessicaCasella', 'https://jessicacasella.github.io/GymTimer/'],
-  ['MiAgenda', 'Proyecto · HTML', 'JessicaCasella'],
-  ['RedirectReviewNFCSeek', 'Proyecto · HTML', 'JRCWebDesign'],
-  ['Calculadora', 'Proyecto · JavaScript', 'JessicaCasella'],
-  ['ObligatorioP22023', 'Proyecto · C#', 'JessicaCasella'],
-  ['ProyectoDIW', 'Proyecto · CSS', 'JessicaCasella'],
-  ['Ta-Te-Ti', 'Proyecto · JavaScript', 'JessicaCasella']
-];
-const list = document.querySelector('#archive-list');
-for (const [name, description, account, demoUrl] of projects) {
-  const link = document.createElement('a');
-  link.href = demoUrl || `https://github.com/${account}/${name}`;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
-  link.textContent = name;
-  const detail = document.createElement('small');
-  detail.textContent = `${description} · ${demoUrl ? 'Visitar web' : 'Ver en GitHub'}`;
-  link.append(detail);
-  list.append(link);
-}
-
 const codeOutput = document.querySelector('#profile-code');
 const initialCode = codeOutput.innerHTML;
 const codeViews = { profile: initialCode, stack: '<span class="syntax-comment">// Las herramientas detrás de mis proyectos.</span>\n{\n  <span class="syntax-pink">"frontend"</span>: [\n    "JavaScript",\n    "React"\n  ],\n  <span class="syntax-pink">"backend"</span>: [".NET", "C#"],\n  <span class="syntax-pink">"datos"</span>: ["SQL Server", "MySQL"],\n  <span class="syntax-pink">"herramientas"</span>: [\n    "Git", "Azure DevOps"\n  ]\n}' };
@@ -43,6 +20,35 @@ tabs.forEach((tab, index) => {
   });
 });
 const dialog = document.querySelector('#image-dialog');
+const track = document.querySelector('#design-track');
+const slides = [...track.querySelectorAll('.mobile-project')];
+const previous = document.querySelector('#gallery-prev');
+const next = document.querySelector('#gallery-next');
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+function currentSlide() {
+  const left = track.getBoundingClientRect().left + parseFloat(getComputedStyle(track).paddingLeft);
+  return slides.reduce((best, slide, i) => Math.abs(slide.getBoundingClientRect().left - left) < Math.abs(slides[best].getBoundingClientRect().left - left) ? i : best, 0);
+}
+function moveGallery(direction) {
+  const index = Math.max(0, Math.min(slides.length - 1, currentSlide() + direction));
+  const offset = slides[index].getBoundingClientRect().left - track.getBoundingClientRect().left - parseFloat(getComputedStyle(track).paddingLeft);
+  track.scrollTo({left: track.scrollLeft + offset, behavior: reducedMotion.matches ? 'instant' : 'smooth'});
+}
+function updateGallery() {
+  document.querySelector('#gallery-count').textContent = `${String(currentSlide() + 1).padStart(2, '0')} / 06`;
+  previous.disabled = track.scrollLeft < 2;
+  next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+}
+previous.addEventListener('click', () => moveGallery(-1));
+next.addEventListener('click', () => moveGallery(1));
+track.addEventListener('keydown', event => {
+  if (event.target === track && ['ArrowLeft', 'ArrowRight'].includes(event.key)) {
+    event.preventDefault(); moveGallery(event.key === 'ArrowRight' ? 1 : -1);
+  }
+});
+track.addEventListener('scroll', updateGallery, {passive:true});
+window.addEventListener('resize', updateGallery);
+updateGallery();
 const dialogImage = document.querySelector('#dialog-image');
 document.querySelectorAll('.capture').forEach(button => button.addEventListener('click', () => {
   document.querySelector('#dialog-title').textContent = button.dataset.title;
