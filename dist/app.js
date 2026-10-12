@@ -35,7 +35,7 @@ function moveGallery(direction) {
   track.scrollTo({left: track.scrollLeft + offset, behavior: reducedMotion.matches ? 'instant' : 'smooth'});
 }
 function updateGallery() {
-  document.querySelector('#gallery-count').textContent = `${String(currentSlide() + 1).padStart(2, '0')} / 06`;
+  document.querySelector('#gallery-count').textContent = `${String(currentSlide() + 1).padStart(2, '0')} / ${String(slides.length).padStart(2, '0')}`;
   previous.disabled = track.scrollLeft < 2;
   next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
 }
