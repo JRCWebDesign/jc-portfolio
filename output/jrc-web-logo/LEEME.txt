@@ -1,0 +1,22 @@
+JRC WEB — LOGO ELEGIDO, PROPUESTA 1
+
+10 variantes, cada una en SVG y PNG de 3360 × 840 px.
+
+SVG: vector real con formas trazadas; sin fotografías, imágenes incrustadas ni fuentes externas. Escalable y editable en Figma, Illustrator o Inkscape.
+PNG: imagen lista para usar. Los archivos terminados en «transparente» no tienen fondo.
+
+original-transparente: JRC marfil y Web violeta, para fondos oscuros.
+web-negro-transparente: logo completo negro, sin fondo.
+negro-violeta-transparente: JRC negro y Web violeta, sin fondo.
+blanco-violeta-fondo-oscuro: versión original sobre azul noche.
+web-negro-fondo-blanco: logo completo negro sobre blanco.
+negro-violeta-fondo-blanco: JRC negro y Web violeta sobre blanco.
+blanco-transparente: logo completo blanco, sin fondo.
+blanco-fondo-oscuro: logo completo blanco sobre azul noche.
+jrc-violeta-web-negro-transparente: JRC violeta y Web negro, sin fondo.
+jrc-violeta-web-negro-fondo-blanco: JRC violeta y Web negro sobre blanco.
+
+Colores: negro #000000, marfil #F5F2ED, violeta claro #B17AF2, violeta para fondo blanco #A16BE0, azul noche #0D0C20.
+vista-previa.png muestra todas las combinaciones. Los fondos usados para mostrar archivos transparentes en esa hoja no forman parte de dichos archivos.
+
+Vectorización del boceto elegido, con colores planos y sin la textura del render original. Se conserva la silueta del diseño.
