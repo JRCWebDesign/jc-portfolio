@@ -1,6 +1,6 @@
 # JRC Web · Jessica
 
-Portfolio de Jessica y presentación de su trabajo independiente de diseño y desarrollo web. HTML, CSS y JavaScript, sin dependencias de compilación.
+Portfolio de Jessica y presentación de su trabajo independiente como diseñadora web en Uruguay. HTML, CSS y JavaScript, sin dependencias de compilación.
 
 - Sitio principal: https://www.jrcweb.tech/
 - Contacto público: hola@jrcweb.tech

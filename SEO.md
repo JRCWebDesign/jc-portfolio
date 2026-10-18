@@ -36,3 +36,7 @@ Verificación pública posterior al despliegue: portada 200, favicon.png 200, ru
 ## Presentación pública sin apellido
 
 Por preferencia de la usuaria, el título principal para búsqueda es «Diseño web en Uruguay | JRC Web». La descripción, el contenido visible, los datos estructurados y la portada compartida omiten su apellido. La ubicación pública se expresa como Uruguay. Los enlaces externos a GitHub conservan sus direcciones existentes; este cambio no modifica cuentas externas ni elimina resultados almacenados previamente por Google.
+
+## Enfoque exclusivo en diseño web
+
+La presentación pública se centra en «Diseñadora web en Uruguay | JRC Web». Se retiraron del contenido promocional los servicios de software y backend, así como la lista de tecnologías. Los servicios visibles son diseño para profesionales, emprendimientos y renovación de webs. Los datos estructurados conservan únicamente el servicio de diseño web y la presentación personal como Jessica, sin apellido.
