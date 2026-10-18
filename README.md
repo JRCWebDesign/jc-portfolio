@@ -1,6 +1,6 @@
-# JRC Web · Jessica Casella
+# JRC Web · Jessica
 
-Portfolio de Jessica Casella y presentación de su trabajo independiente de diseño y desarrollo web. HTML, CSS y JavaScript, sin dependencias de compilación.
+Portfolio de Jessica y presentación de su trabajo independiente de diseño y desarrollo web. HTML, CSS y JavaScript, sin dependencias de compilación.
 
 - Sitio principal: https://www.jrcweb.tech/
 - Contacto público: hola@jrcweb.tech

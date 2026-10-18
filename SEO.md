@@ -4,7 +4,7 @@ Actualización: 18 de octubre de 2026.
 
 ## Implementado
 
-- Título y descripción centrados en diseño y desarrollo web en Uruguay, con Jessica Casella identificada como persona detrás de JRC Web.
+- Título y descripción centrados en diseño y desarrollo web en Uruguay, con Jessica identificada como persona detrás de JRC Web.
 - Datos estructurados WebSite, WebPage, Person y Service, usando la URL canónica https://www.jrcweb.tech/.
 - Contenido visible de servicios y contexto de los proyectos. Sin métricas, testimonios, dirección comercial ni credenciales inventadas.
 - Favicon cuadrado de 192 y 96 px en rutas estables, ICO de varios tamaños y Apple Touch Icon. Se conserva el avatar aprobado.
@@ -23,7 +23,7 @@ Verificación pública posterior al despliegue: portada 200, favicon.png 200, ru
 ## Siguientes mejoras de contenido
 
 - Desarrollar casos de proyecto con necesidad, trabajo realizado y decisiones concretas; distinguir demos de trabajos publicados.
-- Mantener perfiles de GitHub e Instagram consistentes con JRC Web, Jessica Casella y el dominio público.
+- Mantener perfiles de GitHub e Instagram consistentes con JRC Web, Jessica y el dominio público.
 - Revisar consultas e impresiones en Search Console antes de ampliar páginas o cambiar palabras clave. No crear páginas de localidades sin contenido propio.
 
 ## Referencias
@@ -32,3 +32,7 @@ Verificación pública posterior al despliegue: portada 200, favicon.png 200, ru
 - https://developers.google.com/search/docs/appearance/site-names
 - https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl
 - https://developers.cloudflare.com/pages/configuration/redirects/
+
+## Presentación pública sin apellido
+
+Por preferencia de la usuaria, el título principal para búsqueda es «Diseño web en Uruguay | JRC Web». La descripción, el contenido visible, los datos estructurados y la portada compartida omiten su apellido. La ubicación pública se expresa como Uruguay. Los enlaces externos a GitHub conservan sus direcciones existentes; este cambio no modifica cuentas externas ni elimina resultados almacenados previamente por Google.
