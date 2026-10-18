@@ -14,9 +14,11 @@ Actualización: 18 de octubre de 2026.
 
 ## Acciones externas
 
-- Search Console: inspeccionar https://www.jrcweb.tech/ y solicitar indexación después del despliegue; comprobar sitemap.xml.
+- Search Console: inspección realizada el 18 de octubre de 2026. Google muestra la página indexada, rastreo permitido y última visita del 13 de octubre, anterior al rediseño. Solicitud de indexación confirmada en la cola prioritaria. Sitemap canónico reenviado y aceptado correctamente. No es necesario repetir la solicitud.
 - El dominio sin www todavía responde 200. Se recomienda redirección 301 hacia https://www.jrcweb.tech/, conservando rutas y parámetros. La revisión automática rechazó crear esta regla de Cloudflare sin autorización específica. No se modificó la infraestructura del dominio.
 - Google decide cuándo actualiza título e icono. Cumplir los requisitos no garantiza favicon ni posición. Mantener las rutas de los iconos estables.
+
+Verificación pública posterior al despliegue: portada 200, favicon.png 200, ruta inexistente 404, /index.html redirige 301 a /. Datos estructurados presentes en el HTML publicado. La captura de Google que motivó este trabajo corresponde a una versión rastreada antes del avatar; no se detectó bloqueo del icono ni de la portada.
 
 ## Siguientes mejoras de contenido
 
