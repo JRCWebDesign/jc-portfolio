@@ -14,7 +14,7 @@ Desde la raíz: `python -m http.server 4184 --bind 127.0.0.1 --directory dist`.
 
 ## Identidad actual
 
-JRC Web: logo geométrico vectorial, base grafito, textos en blanco cálido y violeta como acento. Ilustraciones pixel art de Jessica con ojos verdes y un gato blanco. La portada destaca Benja Barber, Elodie Bentancor, Personal Trainer y Tattoo Artist en formato móvil; el resto se muestra con «Ver más proyectos».
+JRC Web: logo geométrico vectorial, base grafito, textos en blanco cálido y violeta como acento. Ilustraciones pixel art de Jessica con ojos verdes y un gato blanco. La portada destaca Adán Jurídico, Benja Barber, Elodie Bentancor y Tattoo Artist en formato móvil; el resto se muestra con «Ver más proyectos».
 
 Estilos y comportamiento: `dist/jrc.css` y `dist/jrc.js`. La galería amplía los diseños en un diálogo accesible. El formulario valida los campos y prepara un mensaje en la aplicación de correo del visitante; no envía mensajes mediante un servidor.
 

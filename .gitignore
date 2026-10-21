@@ -7,3 +7,5 @@ sync-portfolio.py
 .env
 .env.*
 node_modules/
+.prototype-runtime/
+.codex-remote-attachments/
