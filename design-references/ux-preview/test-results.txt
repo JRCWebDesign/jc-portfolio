@@ -1,0 +1,10 @@
+PASS 320px: no horizontal overflow, expected project columns
+PASS 390px: no horizontal overflow, expected project columns
+PASS 768px: no horizontal overflow, expected project columns
+PASS 1440px: no horizontal overflow, expected project columns
+PASS menu: keyboard open, Escape, focus return, navigation close
+PASS dialog: desktop/mobile, contained tab, Escape and focus return
+PASS form: required validation, unconfigured, pending/disabled, HTTP error, network error, unconfirmed response, confirmed success (intercepted requests only)
+PASS 200% CSS zoom/reflow at 640px (320px effective); FAQ and expanded gallery at 320px; reduced motion
+PASS all available desktop variants load
+PASS no JavaScript runtime errors
