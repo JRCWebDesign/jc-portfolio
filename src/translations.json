@@ -36,16 +36,16 @@
     "en": "your identity"
   },
   "text.22": {
-    "es": "Diseño y desarrollo web a medida en Uruguay",
-    "en": "Custom web design and development in Uruguay"
+    "es": "Diseño web para profesionales y emprendimientos en Uruguay",
+    "en": "Web design for professionals and small businesses in Uruguay"
   },
   "text.23": {
-    "es": "Diseño y desarrollo páginas a medida para profesionales y emprendimientos. Para mostrar lo que hacés, explicar tus servicios y facilitar que te consulten.",
-    "en": "I design and build custom websites for professionals and small businesses. Showcase your work, explain your services and make it easy for people to get in touch."
+    "es": "Diseño y desarrollo páginas a medida para presentar tus servicios, mostrar tu trabajo y facilitar las consultas. Trabajás directamente conmigo, desde la primera idea hasta la publicación.",
+    "en": "I design and build custom websites to present your services, showcase your work and make enquiries easy. You work directly with me, from the first idea to launch."
   },
   "text.24": {
-    "es": "Consultar por mi web",
-    "en": "Ask about my website"
+    "es": "Solicitar una propuesta",
+    "en": "Request a proposal"
   },
   "text.25": {
     "es": "Ver proyectos",
@@ -152,20 +152,20 @@
     "en": "Services / JRC Web"
   },
   "text.53": {
-    "es": "Diseño y desarrollo web a medida.",
-    "en": "Custom web design and development."
+    "es": "Sitios web para profesionales y emprendimientos.",
+    "en": "Websites for professionals and small businesses."
   },
   "text.54": {
-    "es": "Trabajo de forma independiente desde Uruguay. Hablás directamente conmigo: me contás qué necesitás y preparo una propuesta a medida. El alcance, las funcionalidades y los tiempos se definen según cada proyecto.",
-    "en": "I work independently from Uruguay. You speak directly with me: tell me what you need and I'll prepare a custom proposal. Scope, features and timelines are defined for each project."
+    "es": "Diseño y desarrollo web a medida desde Uruguay. Te ayudo a presentar tus servicios con claridad y a construir una presencia propia. Hablás directamente conmigo y definimos el contenido, las funcionalidades y los tiempos según lo que necesitás.",
+    "en": "Custom web design and development from Uruguay. I help you present your services clearly and build a distinctive online presence. You speak directly with me, and we define the content, features and timeline around your needs."
   },
   "text.55": {
     "es": "Sitios web para profesionales",
     "en": "Websites for professionals"
   },
   "text.56": {
-    "es": "Una web para presentar quién sos, explicar tus servicios y facilitar que te contacten. Diseño una presentación que acompañe tu identidad profesional y se adapte a celulares.",
-    "en": "A website to introduce yourself, explain your services and make it easy to contact you. I design a mobile-friendly presence that reflects your professional identity."
+    "es": "Para estudios jurídicos y profesionales independientes que necesitan presentar su trayectoria, explicar sus servicios y facilitar el contacto. Una web con identidad propia y diseño adaptado a celulares y computadoras.",
+    "en": "For law firms and independent professionals who need to introduce their background, explain their services and make contact easy. A distinctive website designed for phones and computers."
   },
   "text.57": {
     "es": "Webs para emprendimientos",
@@ -184,8 +184,8 @@
     "en": "We review how your website presents itself and what you need to communicate today. A design proposal to organise your content and refresh its look."
   },
   "text.61": {
-    "es": "Contame sobre tu proyecto",
-    "en": "Tell me about your project"
+    "es": "Hablemos de la web que necesitás",
+    "en": "Let’s talk about the website you need"
   },
   "text.62": {
     "es": "02 / Sobre mí",
@@ -244,8 +244,8 @@
     "en": "Let's talk."
   },
   "text.76": {
-    "es": "¿Tenés un proyecto en mente? Contame qué necesitás y lo conversamos.",
-    "en": "Have a project in mind? Tell me what you need and let's talk."
+    "es": "Contame a qué te dedicás, qué necesitás mostrar y si ya tenés una web. Con esa información podemos conversar sobre una propuesta a medida.",
+    "en": "Tell me what you do, what you need to showcase and whether you already have a website. We can use that information to discuss a custom proposal."
   },
   "text.77": {
     "es": "Nombre (obligatorio)",
@@ -578,5 +578,45 @@
   "ui.ready": {
     "es": "El mensaje está preparado. Se abrirá tu aplicación de correo para enviarlo.",
     "en": "Your message is ready. Your email app will open so you can send it."
+  },
+  "case.label": {
+    "es": "Sobre este proyecto",
+    "en": "About this project"
+  },
+  "case.body": {
+    "es": "Una web para presentar a Valentín Adán, abogado y escribano público en Montevideo. El sitio organiza sus áreas de práctica y las vías de contacto, con una presentación que podés explorar en móvil y en el sitio publicado.",
+    "en": "A website introducing Valentín Adán, a lawyer and notary public in Montevideo. It organises his practice areas and contact options in a presentation you can explore in the mobile preview and on the live website."
+  },
+  "ui.analyticsTitle": {
+    "es": "Tu privacidad",
+    "en": "Your privacy"
+  },
+  "ui.analyticsText": {
+    "es": "Con tu permiso usamos Google Analytics para medir visitas e interacciones y mejorar esta web. No enviamos los datos que escribís en el formulario. Podés aceptar o continuar sin medición y cambiar tu elección desde el pie de página.",
+    "en": "With your permission, we use Google Analytics to measure visits and interactions and improve this website. We do not send anything you enter in the form. You can accept or continue without measurement and change your choice in the footer."
+  },
+  "ui.analyticsAccept": {
+    "es": "Aceptar medición",
+    "en": "Allow analytics"
+  },
+  "ui.analyticsReject": {
+    "es": "Continuar sin medición",
+    "en": "Continue without analytics"
+  },
+  "ui.analyticsSettings": {
+    "es": "Preferencias de privacidad",
+    "en": "Privacy preferences"
+  },
+  "ui.analyticsDetails": {
+    "es": "Qué se mide",
+    "en": "What we measure"
+  },
+  "ui.analyticsExplanation": {
+    "es": "Google recibe información técnica de navegación, como dirección IP, dispositivo, páginas visitadas y acciones sobre botones. Usa cookies de medición si aceptás. No activamos señales de Google ni personalización publicitaria. Las estadísticas pueden incluir país aproximado, origen de la visita e idioma. Para consultas sobre privacidad: hola@jrcweb.tech.",
+    "en": "Google receives technical browsing information, such as IP address, device, pages visited and button interactions. It uses analytics cookies if you accept. We do not enable Google signals or advertising personalisation. Statistics may include approximate country, traffic source and language. For privacy enquiries: hola@jrcweb.tech."
+  },
+  "ui.googlePrivacy": {
+    "es": "Privacidad de Google",
+    "en": "Google privacy policy"
   }
 }

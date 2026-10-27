@@ -59,6 +59,7 @@ form.addEventListener('submit',event=>{
  const href='mailto:hola@jrcweb.tech?subject='+encodeURIComponent(t['ui.subject']+name)+'&body='+encodeURIComponent(t['ui.greeting']+'\n\n'+message+'\n\n'+name+'\n'+email);
  const fallback=document.querySelector('#email-draft');fallback.href=href;fallback.hidden=false;
  status.textContent=t['ui.ready'];
+ document.dispatchEvent(new Event('jrc:email-draft-prepared'));
  window.location.href=href;
 });
 document.addEventListener('click',event=>{if(nav.classList.contains('open')&&!nav.contains(event.target)&&!menuButton.contains(event.target))closeMenu();});
