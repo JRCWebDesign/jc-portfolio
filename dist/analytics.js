@@ -9,7 +9,7 @@
   let allowed = false;
   let loaded = false;
   window.dataLayer = window.dataLayer || [];
-  const gtag = (...args) => window.dataLayer.push(args);
+  function gtag() { window.dataLayer.push(arguments); }
   window['ga-disable-' + id] = true;
   gtag('consent', 'default', {
     analytics_storage: 'denied', ad_storage: 'denied',
