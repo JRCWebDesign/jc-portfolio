@@ -62,5 +62,7 @@ form.addEventListener('submit',event=>{
  document.dispatchEvent(new Event('jrc:email-draft-prepared'));
  window.location.href=href;
 });
+// Enable only after the submit handler is installed; without JS the email link remains available.
+form.querySelectorAll('[data-contact-control]').forEach(control=>{control.disabled=false;});
 document.addEventListener('click',event=>{if(nav.classList.contains('open')&&!nav.contains(event.target)&&!menuButton.contains(event.target))closeMenu();});
 nav.addEventListener('focusout',()=>{setTimeout(()=>{if(!nav.contains(document.activeElement)&&document.activeElement!==menuButton)closeMenu();},0);});

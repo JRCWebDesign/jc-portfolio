@@ -21,3 +21,12 @@ for language, path in [('es', 'index.html'), ('en', 'en/index.html')]:
     (ROOT / 'dist' / f'i18n-{language}.js').write_text(
         'window.translations=' + json.dumps(runtime, ensure_ascii=False) + ';\n', encoding='utf-8')
 print('Built / and /en/ with static translated HTML.')
+
+# Fail the deployment rather than publish missing local browser assets.
+for page in [ROOT / 'dist/index.html', ROOT / 'dist/en/index.html']:
+    html = page.read_text(encoding='utf-8')
+    if '{{' in html:
+        raise ValueError(f'Unresolved template in {page}')
+    for asset in re.findall(r'(?:src|href)="(/[^"#?]+)', html):
+        if not (ROOT / 'dist' / asset.lstrip('/')).exists():
+            raise FileNotFoundError(f'Missing asset: {asset}')
